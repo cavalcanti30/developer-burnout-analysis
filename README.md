@@ -48,23 +48,25 @@ Este projeto analisa dados de **6.860 desenvolvedores** para identificar os prin
 - **Jupyter Notebook** - Análise exploratória
 
 ## 📁 Estrutura do Projeto
+
+```
 developer-burnout-analysis/
 │
 ├── data/
-│ ├── developer_burnout_dataset_7000.csv
-│ └── dataset_limpo.csv
+│   ├── developer_burnout_dataset_7000.csv
+│   └── dataset_limpo.csv
 │
 ├── images/
-│ ├── grafico_1_horas_trabalhadas.png
-│ ├── grafico_2_comparacao_completa.png
-│ ├── grafico_3_correlacoes.png
-│ └── grafico_4_distribuicao_burnout.png
+│   ├── grafico_1_horas_trabalhadas.png
+│   ├── grafico_2_comparacao_completa.png
+│   ├── grafico_3_correlacoes.png
+│   └── grafico_4_distribuicao_burnout.png
 │
 ├── cleaning_data.py
 ├── graphics.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🚀 Como Reproduzir
 
