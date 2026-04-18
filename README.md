@@ -24,11 +24,11 @@ Este projeto analisa dados de **6.860 desenvolvedores** para identificar os prin
 ## 📊 Visualizações
 
 ### 1. Distribuição do Burnout
-![Distribuição](images/grafico_4_distribuicao_burnout.png)
+![Distribuição do Burnout](images/grafico_4_distribuicao_burnout.png)
 *Mais da metade dos devs está em nível médio de burnout.*
 
 ### 2. Horas Trabalhadas x Burnout (Insight Principal)
-![Horas Trabalhadas](images/grafico_1_horas_trabalhadas.png)
+![Horas Trabalhadas por Burnout](images/grafico_1_horas_trabalhadas.png)
 *A diferença é brutal: 12.8h/dia no grupo High vs 6.7h no Low.*
 
 ### 3. Perfil Completo por Nível de Burnout
@@ -36,7 +36,7 @@ Este projeto analisa dados de **6.860 desenvolvedores** para identificar os prin
 *Cafeína, tempo de tela e stress acompanham a mesma tendência.*
 
 ### 4. Matriz de Correlação
-![Correlações](images/grafico_3_correlacoes.png)
+![Matriz de Correlação](images/grafico_3_correlacoes.png)
 *Horas trabalhadas e tempo de tela são os fatores mais correlacionados com stress.*
 
 ## 🛠️ Tecnologias Utilizadas
@@ -48,3 +48,19 @@ Este projeto analisa dados de **6.860 desenvolvedores** para identificar os prin
 - **Jupyter Notebook** - Análise exploratória
 
 ## 📁 Estrutura do Projeto
+developer-burnout-analysis/
+│
+├── data/
+│ ├── developer_burnout_dataset_7000.csv # Dados originais
+│ └── dataset_limpo.csv # Dados após limpeza
+│
+├── images/
+│ ├── grafico_1_horas_trabalhadas.png
+│ ├── grafico_2_comparacao_completa.png
+│ ├── grafico_3_correlacoes.png
+│ └── grafico_4_distribuicao_burnout.png
+│
+├── cleaning_data.py # Script de limpeza dos dados
+├── graphics.py # Script de geração dos gráficos
+├── requirements.txt # Dependências do projeto
+└── README.md # Documentação do projeto
