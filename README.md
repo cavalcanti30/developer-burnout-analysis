@@ -28,15 +28,15 @@ Este projeto analisa dados de **6.860 desenvolvedores** para identificar os prin
 *Mais da metade dos devs está em nível médio de burnout.*
 
 ### 2. Horas Trabalhadas x Burnout (Insight Principal)
-![Horas Trabalhadas por Burnout](images/grafico_1_horas_trabalhadas.png)
+![Horas Trabalhadas](images/grafico_1_horas_trabalhadas.png)
 *A diferença é brutal: 12.8h/dia no grupo High vs 6.7h no Low.*
 
 ### 3. Perfil Completo por Nível de Burnout
-![Comparação Completa](images/grafico_2_comparacao_completa.png)
+![Perfil Completo](images/grafico_2_comparacao_completa.png)
 *Cafeína, tempo de tela e stress acompanham a mesma tendência.*
 
 ### 4. Matriz de Correlação
-![Matriz de Correlação](images/grafico_3_correlacoes.png)
+![Correlações](images/grafico_3_correlacoes.png)
 *Horas trabalhadas e tempo de tela são os fatores mais correlacionados com stress.*
 
 ## 🛠️ Tecnologias Utilizadas
@@ -51,8 +51,8 @@ Este projeto analisa dados de **6.860 desenvolvedores** para identificar os prin
 developer-burnout-analysis/
 │
 ├── data/
-│ ├── developer_burnout_dataset_7000.csv # Dados originais
-│ └── dataset_limpo.csv # Dados após limpeza
+│ ├── developer_burnout_dataset_7000.csv
+│ └── dataset_limpo.csv
 │
 ├── images/
 │ ├── grafico_1_horas_trabalhadas.png
@@ -60,7 +60,27 @@ developer-burnout-analysis/
 │ ├── grafico_3_correlacoes.png
 │ └── grafico_4_distribuicao_burnout.png
 │
-├── cleaning_data.py # Script de limpeza dos dados
-├── graphics.py # Script de geração dos gráficos
-├── requirements.txt # Dependências do projeto
-└── README.md # Documentação do projeto
+├── cleaning_data.py
+├── graphics.py
+├── requirements.txt
+└── README.md
+
+
+## 🚀 Como Reproduzir
+
+```bash
+git clone https://github.com/cavalcanti30/developer-burnout-analysis.git
+cd developer-burnout-analysis
+pip install -r requirements.txt
+python cleaning_data.py
+python graphics.py
+```
+
+## 💡 Recomendações
+- Limitar jornada a 10h/dia
+- Alertar quando tela > 14h
+- Atenção com cafeína > 4 xícaras
+
+## 📫 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ricardo-rcaj)
